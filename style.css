@@ -1,0 +1,57 @@
+* {
+    padding: 0 5% 0 5% 0;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+fieldset {
+    background-color: rgb(110, 255, 214);
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+    border-radius: 15px;
+    
+}
+legend{
+    font-size: 1.5em;
+    border: 2px solid black ;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    border: 2px;
+    border-radius: 5px;
+    height: 22px;
+    padding-left: 15px;
+}
+
+label {
+    color:darkslateblue;
+    font-weight: 600;
+   
+}
+
+.botonEnviar {
+    font-size: 1.1em;
+    color: white;
+    background-color: rgb(56, 53, 53);
+    text-align: center;
+}
+.botonEnviar:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+.botonReset {
+    font-size: 1.1em;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.botonReset:hover {
+    background-color: green;
+    color: white;
+}
